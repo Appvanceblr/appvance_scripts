@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<cloud type="EC2" version="1">
+	<config-param key="AIQProtocol" value="https"/>
+	<config-param key="AIQPort" value="8080"/>
+	<config-param key="AccountName" value="testsdsdsd"/>
+	<config-param key="AWSKey" value="sdsdsd"/>
+	<config-param key="AWSSecretAcessKey" value="sdsdsds"/>
+	<config-param key="AMI" value="sdsdsd"/>
+	<config-param key="InstanceType" value="t2.nano"/>
+	<config-param key="KeyPair" value="sdsdsd"/>
+	<config-param key="Security" value="sdsdsd"/>
+	<config-param key="AWSRegion" value="us-east-1.ec2.amazonaws.com"/>
+	<config-param key="vpcId" value="sdsds"/>
+	<config-param key="subnetId" value="sdsd"/>
+</cloud>
