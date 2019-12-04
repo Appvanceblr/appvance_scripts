@@ -73,13 +73,22 @@
 </step>
 <step action='click' value='""' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
-   <accessor type='click' value='link(&quot;Upload Files&quot;)' selected='true'/>
-   <accessor type='click' value='link(&quot;#uploadFiles&quot;)' selected='false'/>
-   <accessor type='click' value='link(0,_in(listItem(&quot;uploadFilesTab&quot;)))' selected='false'/>
-   <accessor type='click' value='link(0,_in(listItem(&quot;nav-item&quot;)))' selected='false'/>
-   <accessor type='click' value='link(0,_in(listItem(&quot;Upload Files&quot;)))' selected='false'/>
-   <accessor type='click' value='link(13)' selected='false'/>
-   <accessor type='click' value='link(&quot;nav-link&quot;)' selected='false'/>
+   <accessor type='click' value='submit(&quot;Upload&quot;)' selected='true'/>
+   <accessor type='click' value='submit(&quot;btnUpload&quot;)' selected='false'/>
+   <accessor type='click' value='submit(1,_in(div(&quot;divUploadBtn&quot;)))' selected='false'/>
+   <accessor type='click' value='submit(1,_in(div(&quot;col-md-4 mb-2 ml-auto text-right&quot;)))' selected='false'/>
+   <accessor type='click' value='submit(1,_in(div(&quot;Advanced options Upload&quot;)))' selected='false'/>
+   <accessor type='click' value='submit(10)' selected='false'/>
+   <accessor type='click' value='submit(&quot;btn[4]&quot;)' selected='false'/>
+</dialect>
+</step>
+<step action='assertContainsText' value='"Success !"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='assertContainsText' value='heading2(&quot;swal2-title&quot;)' selected='true'/>
+   <accessor type='assertContainsText' value='heading2(&quot;swal2-title&quot;)' selected='false'/>
+   <accessor type='assertContainsText' value='heading2(&quot;Success !&quot;)' selected='false'/>
+   <accessor type='assertContainsText' value='heading2(0,_in(div(&quot;swal2-modal swal2-show&quot;)))' selected='false'/>
+   <accessor type='assertContainsText' value='heading2(0)' selected='false'/>
 </dialect>
 </step>
 </testcase>
