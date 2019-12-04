@@ -12,6 +12,7 @@
   </basics>
   <resources>
     <resource name="BulkSetFileFromRepository.ds" type="ds" path="{scenario}/BulkSetFileFromRepository.ds"/>
+    <resource name="Bulk" type="folder" path="{scenario}/Bulk/"/>
   </resources>
   <testnodes>
     <node name="localhost" location="http://localhost:8080/TMServer/ws/TestNode"/>
