@@ -1,0 +1,116 @@
+{
+    "stepsExecuted": 0,
+    "scale": 1,
+    "requests": {},
+    "type": ["Tags"],
+    "visualHints": true,
+    "states": [
+        {
+            "containsInput": false,
+            "children": {"0": [1]},
+            "paths": [],
+            "name": "Blank",
+            "nameVariants": [],
+            "customActions": [],
+            "id": 0,
+            "fields": [],
+            "visualHints": []
+        },
+        {
+            "containsInput": false,
+            "children": {},
+            "paths": [],
+            "name": "Still Blank",
+            "nameVariants": [],
+            "customActions": [],
+            "id": 1,
+            "fields": [],
+            "visualHints": []
+        }
+    ],
+    "duration": 5001,
+    "blueprintType": "web",
+    "browser": "Chrome",
+    "root": 1,
+    "setupJS": "",
+    "lastActionId": 1,
+    "nwLibraries": [],
+    "validationsWorkbench": [],
+    "dplType": "HashDPL",
+    "validDomains": ["https://demosite.appvance.com"],
+    "stLibraries": [],
+    "timesThreadStarted": 1,
+    "threads": 1,
+    "ignoreURLs": [],
+    "version": 300,
+    "rootURL": "https://demosite.appvance.com/",
+    "delay": 10,
+    "executions": [{
+        "processedStates": [],
+        "extractors": [],
+        "validators": [],
+        "templates": [],
+        "start": 1585039341727,
+        "unprocessedActions": [[1]],
+        "smartTags": [],
+        "duration": 4000,
+        "actionsFound": 1,
+        "dataSetNames": ["Default"],
+        "stop": 1585039477003,
+        "lastResume": 0,
+        "networkValidations": [],
+        "useOneDataSet": false,
+        "bindingsWithoutCustomActions": [],
+        "name": "a",
+        "usePreviousBindings": false,
+        "id": 0,
+        "statesFound": [],
+        "failedActions": [],
+        "bindingsWithCustomActions": [],
+        "inconsistentActions": []
+    }],
+    "prune": true,
+    "dataSets": [{
+        "values": {"baseURL": "https://demosite.appvance.com"},
+        "name": "Default",
+        "used": true
+    }],
+    "files": [],
+    "messages": [],
+    "actions": [
+        {
+            "oncePerApp": false,
+            "requestList": [],
+            "children": {"0": [{
+                "stateId": 0,
+                "weight": 1
+            }]},
+            "shortestPath": [],
+            "timesVisited": [],
+            "apiRequestList": [],
+            "id": 0,
+            "subActions": [{
+                "oncePerApp": false,
+                "actionsCreated": 0,
+                "action": "//Open",
+                "value": ""
+            }]
+        },
+        {
+            "oncePerApp": false,
+            "requestList": [],
+            "children": {},
+            "shortestPath": [],
+            "timesVisited": [],
+            "apiRequestList": [],
+            "id": 1,
+            "subActions": [{
+                "oncePerApp": false,
+                "actionsCreated": 0,
+                "action": "navigateTo",
+                "value": "$baseURL"
+            }]
+        }
+    ],
+    "selfHealing": true
+}
