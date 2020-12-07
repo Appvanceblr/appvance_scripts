@@ -2,7 +2,12 @@
 <testcase  name= '' description='' author='' version=''>
 <dpl filename='' exectype='runstepbystep' errorhandling='' type='HashDPL'/>
 <fallback useFallback='false'/>
-<step action='navigateTo' value='"https://www.facebook.com/"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='navigateTo' value='"https://www.facebook.com/"' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0'>
+  <dialect type='sahi'>
+   <accessor type='navigateTo' value='' selected='true'/>
+</dialect>
+</step>
+<step action='navigateTo' value='"https://www.facebook.com/r.php"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
   <dialect type='sahi'>
    <accessor type='navigateTo' value='' selected='true'/>
 </dialect>
