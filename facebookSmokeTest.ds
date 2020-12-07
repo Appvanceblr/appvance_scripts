@@ -2,7 +2,7 @@
 <testcase  name= '' description='' author='' version=''>
 <dpl filename='' exectype='runstepbystep' errorhandling='' type='HashDPL'/>
 <fallback useFallback='false'/>
-<step action='navigateTo' value='"https://www.facebook.com/"' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0'>
+<step action='navigateTo' value='"https://www.facebook.com/"' type='web' desc='this navigate to a different page' isThinkTime='false' isCommented='true' sequence='0'>
   <dialect type='sahi'>
    <accessor type='navigateTo' value='' selected='true'/>
 </dialect>
@@ -62,7 +62,7 @@
    <accessor type='setSelected' value='select(0)' selected='false'/>
 </dialect>
 </step>
-<step action='setSelected' value='"Month"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='setSelected' value='"Month"' type='web' desc='no longer exists' isThinkTime='false' isCommented='true' sequence='0'>
   <dialect type='sahi'>
    <accessor type='setSelected' value='select(&quot;Month&quot;)' selected='true'/>
    <accessor type='setSelected' value='select(&quot;_5dba[1]&quot;)' selected='false'/>
@@ -97,14 +97,14 @@
    <accessor type='setSelected' value='select(1)' selected='false'/>
 </dialect>
 </step>
-<step action='setValue' value='"qwerty@qwerty.com"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='setValue' value='"qwerty@qwerty.com"' type='web' desc='no longer asked' isThinkTime='false' isCommented='true' sequence='0'>
   <dialect type='sahi'>
    <accessor type='setValue' value='emailbox(&quot;inputtext&quot;)' selected='true'/>
    <accessor type='setValue' value='emailbox(&quot;email&quot;)' selected='false'/>
    <accessor type='setValue' value='emailbox(0)' selected='false'/>
 </dialect>
 </step>
-<step action='setValue' value='"123qwerty"' type='web' desc='' isThinkTime='false' isCommented='false' sequence='0'>
+<step action='setValue' value='"123qwerty"' type='web' desc='' isThinkTime='false' isCommented='true' sequence='0'>
   <dialect type='sahi'>
    <accessor type='setValue' value='password(&quot;inputtext&quot;)' selected='true'/>
    <accessor type='setValue' value='password(&quot;pass&quot;)' selected='false'/>
